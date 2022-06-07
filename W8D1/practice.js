@@ -41,6 +41,7 @@ function mysteryScoping1() {
     let y = 'out of block again';
     console.log(y);
   }
+  
 
   function madLib(verb, adjective, noun) {
       let verb1 = verb
@@ -63,17 +64,17 @@ function mysteryScoping1() {
 // console.log(isSubstring("Jump for joy", "joys"))
 
 
-function fizzBuzz(array) {
-    let result = []
-    for (const ele of array) {
-        if (ele % 3  === 0 || ele % 5 === 0 && !(ele % 3 === 0 && ele % 5 === 0));
-        continue;
-     } else {
-        result.push(ele)
-        }
-    }
-    console.log(result)
+// function fizzBuzz(array) {
+//     let result = []
+//     for (const ele of array) {
+//         if (ele % 3  === 0 || ele % 5 === 0 && !(ele % 3 === 0 && ele % 5 === 0));
+//         continue;
+//      } else {
+//         result.push(ele)
+//         }
+//     }
+//     console.log(result)
 
-}
+// }
 
 fizzBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
